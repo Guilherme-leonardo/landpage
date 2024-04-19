@@ -1,3 +1,5 @@
+@import url(media.scss);
+
 body{
     background-color: rgb(34, 34, 34);
     color: white;
@@ -97,35 +99,3 @@ input{
 
 // RESPONSIVIDADE
 
-@media screen and (max-width: 760px){
-
-    header{
-        flex-direction: column;
-    }
-
-    main{
-        flex-direction: column;
-    }
-
-    h2{
-        font-size: 38px;
-        line-height: 30px;
-    }
-
-    form{
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    input{
-        align-self: center;
-    }
-
-    img{
-        display: none;
-    }
-
-    ul{
-        text-align: center;
-    }
-}
